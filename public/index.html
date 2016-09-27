@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     <link rel="stylesheet" herf="styles/index.css">
     <title>TypoCountr</title>
-    <script type="text/javascript">
+    <script src="./index.js"></script>
+    <!-- <script type="text/javascript">
     function renderUrl(){
           var browserFrame = document.getElementById("browser");
           browserFrame.src = document.getElementById("txtUrl").value;
       }
-    </script>
+    </script> -->
 </head>
 
 <body>
@@ -35,7 +36,7 @@
                     <form method="post" target="browser">
                     Submit a URL below to count the typoes:
                     <br>
-                    <input id="txtUrl" class="u-full-width" type="text" name="url" placeholder="Pour one out fr the cpy editors" />
+                    <input id="txtUrl" class="u-full-width" type="text" name="url" value="http://" placeholder="Pour one out fr the cpy editors" />
                     <br>
                     <input type="button" id="buttonurl" value="Get strted" onclick="renderUrl(); return false" />
                   </div>
