@@ -4,13 +4,10 @@ function renderUrlButton(){
 }
 
 function renderUrlEnter(){
-    var go = document.getElementById("buttonurl");
     var txt = document.getElementById("txtUrl");
-
     txt.addEventListener("keypress", function(event) {
-      event.preventDefault();
-      if (event.keyCode == 13)
-        go.click();
+      if (event.keyCode === 13)
+        renderUrlButton();
     })
 }
 

@@ -33,13 +33,13 @@
             <div class="row">
                 <div class="twelve columns">
                     <div>
-                    <form method="post" target="browser">
+                  <!--   <form method="post" target="browser"> -->
                     Submit a URL below to count the typoes:
                     <br>
-                    <input id="txtUrl" class="u-full-width" type="text" name="url" value="http://" onkeydown="renderUrlEnter()" />
+                    <input id="txtUrl" class="u-full-width" type="text" name="url" value="http://" onkeypress="renderUrlEnter()">
                     <br>
-                    <input type="button" id="buttonurl" target="browser" value="Get strted" onClick="renderUrlButton()"  />
-                  </form>
+                    <input type="button" id="buttonurl" value="Get strted" onclick="renderUrlButton()"  />
+            <!--       </form> -->
                   </div>
                 </div>
             </div>
