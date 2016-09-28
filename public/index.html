@@ -36,9 +36,9 @@
                     <form method="post" target="browser">
                     Submit a URL below to count the typoes:
                     <br>
-                    <input id="txtUrl" class="u-full-width" type="text" name="url" value="http://" placeholder="Pour one out fr the cpy editors" />
+                    <input id="txtUrl" class="u-full-width" type="text" name="url" value="http://" onkeydown="renderUrlEnter()" />
                     <br>
-                    <input type="button" id="buttonurl" target="browser" value="Get strted" onClick="renderUrl()" />
+                    <input type="button" id="buttonurl" target="browser" value="Get strted" onClick="renderUrlButton()"  />
                   </form>
                   </div>
                 </div>
