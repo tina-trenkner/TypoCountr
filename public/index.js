@@ -22,3 +22,16 @@ function modifyCount(val) {
     document.getElementById("count").value = new_qty;
     return new_qty;
 }
+
+// function tweetTypo() {
+//   var count = document.getElementById("count").value;
+//   var url = document.getElementById("txtUrl").value;
+//   var tweetButton = document.getElementById("tweetButton")
+//
+//   tweetButton.addEventListern("click", function(event) {
+//
+//   })
+  //Take the number from the counter
+  //The the url from the text input field
+  //Throw those two values into a prepopulated tweet: "I found TK typos in this story [link] #typocountr"
+// }
