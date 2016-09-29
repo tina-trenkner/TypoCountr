@@ -23,6 +23,11 @@ function modifyCount(val) {
     return new_qty;
 }
 
+// function tweetTypo () {
+//   var iframe = document.getElementById("browser")
+//   console.log(iframe.contentWindow.location.href);
+// }
+
 // function tweetTypo() {
 //   var count = document.getElementById("count").value;
 //   var url = document.getElementById("txtUrl").value;
@@ -35,5 +40,5 @@ function modifyCount(val) {
 
   //Throw those two values into a prepopulated tweet: "I found TK typos in this story [link] #typocountr"
 // }
-// 
+//
 // 'https://twitter.com/intent/tweet?text=I%20found' + count + ''%20typos%20in%20this%20story%20' + url + '?hashtags=typocountr'
