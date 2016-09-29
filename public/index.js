@@ -28,10 +28,12 @@ function modifyCount(val) {
 //   var url = document.getElementById("txtUrl").value;
 //   var tweetButton = document.getElementById("tweetButton")
 //
-//   tweetButton.addEventListern("click", function(event) {
-//
+//   tweetButton.addEventListener("click", function(event) {
+//      Bring up Twitter window
+//      Make sure that window is prepopulated with count and link
 //   })
-  //Take the number from the counter
-  //The the url from the text input field
+
   //Throw those two values into a prepopulated tweet: "I found TK typos in this story [link] #typocountr"
 // }
+// 
+// 'https://twitter.com/intent/tweet?text=I%20found' + count + ''%20typos%20in%20this%20story%20' + url + '?hashtags=typocountr'
