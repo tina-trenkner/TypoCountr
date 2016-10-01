@@ -27,13 +27,12 @@
             <div class="row">
                 <div class="twelve columns">
                     <div>
-                  <!--   <form method="post" target="browser"> -->
-                    Submit a URL below to count the typoes:
+                    <p>Submit a URL below to count the typoes:
                     <br>
                     <input id="txtUrl" class="u-full-width" type="text" name="url" value="http://" onkeypress="renderUrlEnter()">
                     <br>
                     <input type="button" id="buttonurl" value="Get strted" onclick="renderUrlButton()"  />
-            <!--       </form> -->
+                    </p>
                   </div>
                 </div>
             </div>
@@ -46,9 +45,11 @@
         <div class="container">
             <div class="row">
                 <div class="twelve columns">
+                  <p>
                   <button id="down" onClick="modifyCount(-1)"> - </button>
-                  <input id="count" value="0"/>
+                  <input id="count" name="count" value="0"/>
                   <button id="up" onClick="modifyCount(1)"> + </button>
+                </p>
                 </div>
             </div>
         </div>
@@ -68,28 +69,24 @@
     <div>
         <div class="container">
             <div class="row">
-                <div class="twelve columns">
-                 <a href="https://twitter.com/intent/tweet?text=I%20found%20typos%20in%20this%20story%20&url=http%3A%2F%2Fwww.washingtonpost.com%2F&hashtags=typocountr" target="_blank"><button> Didn't find a typo? Tweet </button></a>
-                  <a href="" target="_blank"><button> Found one typo? Tweet </button></a>
-                  <button onclick="tweetTypo()"> Found multiple typos? Tweet </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr>
-      <div>
-          <div class="container">
-              <div class="row">
-                  <div class="twelve columns">
-                    <p id="about">
-                    <a href="">About TypoCountr</a> | <a href="">Why can't I load a New York Times, Guardian or Vox stry?</a>
-                    </p>
-                  </div>
-              </div>
-          </div>
-      </div>
-</body>
-</html>
-
-
-http://
+                <div class="twelve columns" id="tweet">
+                  <a href="https://twitter.com/intent/tweet?text=I%20found%20typos%20in%20this%20story%20&url=http%3A%2F%2Fwww.washingtonpost.com%2F&hashtags=typocountr" target="_blank"><button> Didn't find a typo? Tweet </button></a>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <hr>
+       <div>
+           <div class="container">
+               <div class="row">
+                   <div class="twelve columns">
+                     <p id="about">
+                     <a href="">About TypoCountr</a> | <a href="">Why can't I load a New York Times, Guardian or Vox stry?</a>
+                     </p>
+                   </div>
+               </div>
+           </div>
+       </div>
+ </body>
+ </html>
+      
