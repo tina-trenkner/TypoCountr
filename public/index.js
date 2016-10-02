@@ -1,6 +1,3 @@
-
-
-
 function renderUrlButton(){
     var browserFrame = document.getElementById("browser")
     browserFrame.src = document.getElementById("txtUrl").value
@@ -29,16 +26,34 @@ function modifyCount(val) {
     return new_qty;
 }
 
-function tweetUrl() {
-  var browserFrame = document.getElementById("browser")
-  browserFrame.src = document.getElementById("txtUrl").value;
-  var httpString = browserFrame.src
-  var pushUrl = httpString.slice(7)
 
+function getTweet (){
+  var typoCount = modifyCount(0)
+  var txtUrl = document.getElementById("txtUrl").value;
 
-  return "https://twitter.com/intent/tweet?text=I%20found%20typos%20in%20this%20story%20&url=http%3A%2F%2F" + pushUrl + "%2F&hashtags=typocountr"
+  var tweet = "https://twitter.com/intent/tweet?text=I%20found%20" + typoCount +
+  "%20typos%20in%20this%20story%20&url=" + txtUrl + "%2F&hashtags=typocountr"
+
+  console.log(tweet)
+  var link = document.getElementById("tweetBtn");
+  link.setAttribute("href", tweet)
+
+  window.open(
+    tweet,
+    '_blank'
+  );
 }
-console.log(tweetUrl())
+
+// function tweetUrl() {
+//   var browserFrame = document.getElementById("browser")
+//   browserFrame.src = document.getElementById("txtUrl").value;
+//   var httpString = browserFrame.src
+//   var pushUrl = httpString.slice(7)
+//
+//
+//   return "https://twitter.com/intent/tweet?text=I%20found%20typos%20in%20this%20story%20&url=http%3A%2F%2F" + pushUrl + "%2F&hashtags=typocountr"
+// }
+// console.log(tweetUrl())
 
 
 
