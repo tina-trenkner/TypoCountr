@@ -1,6 +1,9 @@
+
+
+
 function renderUrlButton(){
     var browserFrame = document.getElementById("browser")
-    browserFrame.src = document.getElementById("txtUrl").value;
+    browserFrame.src = document.getElementById("txtUrl").value
     console.log(browserFrame.src)
     return browserFrame.src
 }
@@ -26,11 +29,27 @@ function modifyCount(val) {
     return new_qty;
 }
 
-
 function tweetUrl() {
-  return "https://twitter.com/intent/tweet?text=I%20found%20typos%20in%20this%20story%20&url=http%3A%2F%2F" + "www.washingtonpost.com" + "%2F&hashtags=typocountr"
+  var browserFrame = document.getElementById("browser")
+  browserFrame.src = document.getElementById("txtUrl").value;
+  var httpString = browserFrame.src
+  var pushUrl = httpString.slice(7)
+
+
+  return "https://twitter.com/intent/tweet?text=I%20found%20typos%20in%20this%20story%20&url=http%3A%2F%2F" + pushUrl + "%2F&hashtags=typocountr"
 }
 console.log(tweetUrl())
+
+
+
+
+
+// function spliceUrl() {
+//   var httpString = document.getElementById("txtUrl").value;
+//   var pushUrl = httpString.slice(7)
+// }
+//
+// console.log(spliceUrl())
 
 //document.getElementById("tweet").href = tweetUrl()
 
