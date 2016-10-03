@@ -32,7 +32,7 @@ function getTweet (){
   var txtUrl = document.getElementById("txtUrl").value;
 
   var tweet = "https://twitter.com/intent/tweet?text=I%20found%20" + typoCount +
-  "%20typos%20in%20this%20story%20&url=" + txtUrl + "%2F&hashtags=typocountr"
+  "%20typos%20in%20this%20story&url=" + txtUrl + "%2F&hashtags=typocountr,"
 
   console.log(tweet)
   var link = document.getElementById("tweetBtn");
