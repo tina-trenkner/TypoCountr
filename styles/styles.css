@@ -6,6 +6,10 @@ h3 {
   font-size: 1.7em;
 }
 
+img {
+  display: block;
+}
+
 .counterblock {
   background-color: red;
 }
@@ -20,4 +24,10 @@ h3 {
 
 .counterbutton {
   background-color: white;
+}
+
+#tagline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
