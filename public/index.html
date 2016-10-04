@@ -5,24 +5,24 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <title>TypoCountr</title>
+    <link rel="stylesheet" href="../styles/sassstyles.css">
+    <title>#TypoCountr</title>
     <script src="./index.js" defer></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
 
 <body>
-  <div>
-      <div class="container">
-          <div class="row">
-              <div class="twelve columns">
-                <img src="./typocountrlogo300px.jpg" />
-                <h3>How mny have you found today?</h3>
-              </div>
-          </div>
-      </div>
-  </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="./typocountr300px.jpg" />
+                    <h3>How mny have you found today?</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div>
@@ -30,13 +30,13 @@
             <div class="row">
                 <div class="twelve columns">
                     <div>
-                    <p>Submit a URL below to count the typoes:
-                    <br>
-                    <input id="txtUrl" class="u-full-width" type="text" name="url" value="http://" onkeypress="renderUrlEnter()">
-                    <br>
-                    <input type="button" id="buttonurl" value="Get strted" onclick="renderUrlButton()"  />
-                    </p>
-                  </div>
+                        <p>Submit a URL below to count the typoes:
+                            <br>
+                            <input id="txtUrl" class="u-full-width" type="text" name="url" value="http://" onkeypress="renderUrlEnter()">
+                            <br>
+                            <input type="button" id="buttonurl" value="Get strted" onclick="renderUrlButton()" />
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -47,14 +47,13 @@
         <div class="container">
             <div class="row">
                 <div class="twelve columns">
-                  <div class ="counter">
-                  <p>
-                    <button id="up" class="counterbutton" onClick="modifyCount(1)"> Found one! </button>
-                  <input id="count" name="count" value="0"/>
-                  <button id="down" class="counterbutton" onClick="modifyCount(-1)"> Oops, not a typo </button>
-
-                    </p>
-                  </div>
+                    <div class="counter">
+                        <p>
+                            <button id="up" class="counterbutton" onClick="modifyCount(1)"> Found one! </button>
+                            <input id="count" name="count" value="0" />
+                            <button id="down" class="counterbutton" onClick="modifyCount(-1)"> Oops, not a typo </button>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -66,31 +65,32 @@
                 <div class="twelve columns">
                     <iframe id="browser" name="browser" src="" width="100%" height="400" scrolling="yes"></iframe>
                 </div>
-              </div>
-          </div>
-      </div>
+            </div>
+        </div>
+    </div>
 
 
     <div>
         <div class="container">
             <div class="row">
                 <div class="twelve columns" id="tweet">
-                <button id="tweetBtn" onclick="getTweet()" href="#"> Tweet yr typo count </button></a>
-                 </div>
-             </div>
-         </div>
-     </div>
-     <hr>
-       <div>
-           <div class="container">
-               <div class="row">
-                   <div class="twelve columns">
-                     <p id="about">
-                     <a href="">About TypoCountr</a> | <a href="">Why can't I load a New York Times, Guardian or Vox stry?</a>
-                     </p>
-                   </div>
-               </div>
-           </div>
-       </div>
- </body>
- </html>
+                    <button id="tweetBtn" onclick="getTweet()" href="#"> Tweet yr typo count </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <hr>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <p id="about">
+                        <a href="">About TypoCountr</a> | <a href="">Why can't I load a New York Times, Guardian or Vox stry?</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</body>
+
+</html>

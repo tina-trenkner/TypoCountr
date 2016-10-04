@@ -8,10 +8,12 @@ h3 {
 
 img {
   display: block;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .counterblock {
-  background-color: red;
+  background-color: #d2000f;
 }
 
 .counter {
@@ -24,10 +26,4 @@ img {
 
 .counterbutton {
   background-color: white;
-}
-
-#tagline {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

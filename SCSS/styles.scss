@@ -1,0 +1,49 @@
+//Variables
+
+//Colors
+$deeperRed: #d2000f;
+
+.counterblock {
+  background-color: $deeperRed;
+}
+
+//Fonts
+$avenirSans: "Avenir";
+$typocountrSubHed: 1.7em;
+
+body {
+  font-family: $avenirSans;
+}
+
+h3 {
+  font-size: $typocountrSubHed;
+}
+
+//Images
+$imgDisplay: flex;
+$imgMargin-top: 15px;
+$imgMargin-bottom: 10px;
+
+img {
+  display: $imgDisplay;
+  margin-top: $imgMargin-top;
+  margin-bottom: $imgMargin-bottom;
+}
+
+//counter
+
+$counterDisplay: flex;
+$counterCentering: center;
+$counterPadding: 35px;
+$counterButton: white;
+
+.counter {
+  display: $counterDisplay;
+  justify-content: $counterCentering;
+  align-items: $counterCentering;
+  padding-top: $counterPadding;
+}
+
+.counterbutton {
+  background-color: $counterButton;
+}
