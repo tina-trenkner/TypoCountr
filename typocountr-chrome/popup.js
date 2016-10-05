@@ -37,15 +37,25 @@ document.addEventListener('DOMContentLoaded', function() {
             var typoCount = modifyCount(0);
             var tweet = "https://twitter.com/intent/tweet?text=I%20found%20" + typoCount +
                 "%20typos%20in%20this%20story&url=" + txtUrl + "%2F&hashtags=typocountr"
-
+              var tweetOneTypo = "https://twitter.com/intent/tweet?text=I%20found%20a%20typo%20in%20this%20story&url=" + txtUrl + "%2F&hashtags=typocountr,"
             console.log(tweet)
+            console.log(tweetOneTypo)
             var link = document.getElementById("tweetBtn");
+            if (typoCount === 1) {
+            link.setAttribute("href", tweetOneTypo)
+
+            window.open(
+              tweetOneTypo,
+              '_blank'
+            );
+          } else {
             link.setAttribute("href", tweet)
 
             window.open(
-                tweet,
-                '_blank'
+              tweet,
+              '_blank'
             );
+          }
         })
     })
 })
