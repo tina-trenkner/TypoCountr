@@ -1,0 +1,23 @@
+body {
+  font-family: "Avenir";
+}
+
+img {
+  display: block;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterbutton {
+  background-color: white;
+}
+
+#tweet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
