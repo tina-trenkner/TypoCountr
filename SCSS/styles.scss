@@ -1,30 +1,10 @@
-@import "sassvariables"
+@import "sassvariables";
+@import "mixin";
 
 body {
-  font-family: $avenirSans;
-}
-
-h3 {
-  font-size: $typocountrSubHed;
-}
-
-img {
-  display: $imgDisplay;
-  margin-top: $imgMargin-top;
-  margin-bottom: $imgMargin-bottom;
+  @include app;
 }
 
 .counterblock {
-  background-color: $deeperRed;
-}
-
-.counter {
-  display: $counterDisplay;
-  justify-content: $counterCentering;
-  align-items: $counterCentering;
-  padding-top: $counterPadding;
-}
-
-.counterbutton {
-  background-color: $counterButton;
+  @include counter;
 }
