@@ -1,0 +1,24 @@
+@mixin app {
+    font-family: $avenirSans;
+    h3 {
+      font-size: $typocountrSubHed;
+    }
+    img {
+      display: $imgDisplay;
+      margin-top: $imgMargin-top;
+      margin-bottom: $imgMargin-bottom;
+    }
+}
+
+@mixin counter {
+  background-color: $deeperRed;
+  .counter {
+    display: $counterDisplay;
+    justify-content: $counterCentering;
+    align-items: $counterCentering;
+    padding-top: $counterPadding;
+  }
+  .counterbutton {
+    background-color: $counterButton;
+  }
+}

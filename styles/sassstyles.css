@@ -1,0 +1,20 @@
+body {
+  font-family: "Avenir"; }
+  body h3 {
+    font-size: 1.7em; }
+  body img {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px; }
+
+.counterblock {
+  background-color: #d2000f; }
+  .counterblock .counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px; }
+  .counterblock .counterbutton {
+    background-color: white; }
+
+/*# sourceMappingURL=sassstyles.css.map */
