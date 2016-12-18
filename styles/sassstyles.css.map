@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,IAAK;ECFD,WAAW,ECAF,QAAQ;EDCjB,OAAG;IACD,SAAS,ECDI,KAAK;EDGpB,QAAI;IACF,OAAO,ECHA,IAAI;IDIX,UAAU,ECHA,IAAI;IDId,aAAa,ECHA,IAAI;;AFEvB,aAAc;ECMZ,gBAAgB,ECbN,OAAO;EDcjB,sBAAS;IACP,OAAO,ECTM,IAAI;IDUjB,eAAe,ECTA,MAAM;IDUrB,WAAW,ECVI,MAAM;IDWrB,WAAW,ECVE,IAAI;EDYnB,4BAAe;IACb,gBAAgB,ECZJ,KAAK",
+"sources": ["../SCSS/styles.scss","../SCSS/mixin.scss","../SCSS/sassvariables.scss"],
+"names": [],
+"file": "sassstyles.css"
+}

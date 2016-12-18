@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "typocountr",
+  "description": "A counter to count the number of typos in online news",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png", // This is for the browser icon
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}

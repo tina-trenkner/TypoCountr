@@ -1,0 +1,10 @@
+@import "sassvariables";
+@import "mixin";
+
+body {
+  @include app;
+}
+
+.counterblock {
+  @include counter;
+}

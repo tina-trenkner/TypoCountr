@@ -1,0 +1,29 @@
+body {
+  font-family: "Avenir";
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+img {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.counterblock {
+  background-color: #d2000f;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+
+}
+
+.counterbutton {
+  background-color: white;
+}
