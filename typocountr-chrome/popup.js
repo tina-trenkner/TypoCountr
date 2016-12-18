@@ -25,6 +25,16 @@ function modifyCount(val) {
     return new_qty;
 }
 
+// document.addEventListener('DOMContentLoaded', function () {
+//   var takeScreenshot = document.getElementById('takeScreenshot')
+//   takeScreenshot.addEventListener('click', function() {
+//     //takes a screenshot of current tab
+//     //creates a reasonably-sized jpg of the typoCount
+//     //attaches the jpg to the tweet
+//   })
+// }
+// )
+
 document.addEventListener('DOMContentLoaded', function() {
     var tweetBtn = document.getElementById('tweetBtn')
     tweetBtn.addEventListener('click', function() {
